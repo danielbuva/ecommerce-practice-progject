@@ -1,0 +1,211 @@
+.App {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn:hover {
+  text-decoration: none;
+}
+
+.btns {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btns:hover {
+  color: #707070;
+}
+.shop {
+  color: white;
+  text-decoration: underline;
+  font-size: 12px;
+}
+.details {
+  color: #707070;
+  text-decoration: underline;
+}
+.globalBanner {
+  background-color: #000000;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
+}
+
+.Top1 {
+  display: flex;
+  font-size: 12.4px;
+}
+.Top2 {
+  display: flex;
+  font-size: 16.8px;
+  font-weight: 700;
+  margin: 34px;
+}
+
+.grayContainer {
+  background-color: #f5f5f5;
+  color: #707070;
+  height: 41px;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
+}
+
+.utilityBar {
+  max-width: 1440px;
+  margin: auto;
+  height: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.utilBar1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  font-weight: 350;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.utilBar2 {
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 5 4 500;
+}
+
+.globalHeader {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+}
+
+.grayLine {
+  display: flex;
+  justify-content: center;
+  border-bottom: #ddd solid 1px;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
+}
+.mainNav {
+  border: #000 solid;
+  display: flex;
+  width: 33%;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #000;
+}
+.sale {
+  color: red;
+}
+
+.UOtitle {
+  font-weight: bolder;
+  font-size: 27px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+.globalHeader a:active {
+  color: black;
+}
+.itemNav {
+  display: flex;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: space-between;
+  border: #000000 solid 1px;
+  height: 40px;
+  width: 240px;
+  margin-right: 35px;
+  font-weight: 500;
+}
+.input {
+  border: none;
+  margin: auto;
+  font-weight: 500;
+}
+.input::placeholder {
+  color: black;
+}
+.input:hover::placeholder {
+  color: #707070;
+}
+.input:focus {
+  outline: none;
+}
+.searchButton {
+  background-color: white;
+  border: none;
+  width: 45px;
+}
+.searchButton:hover {
+  background-color: #f5f5f5;
+}
+.cart:hover {
+  cursor: pointer;
+  color: #707070;
+}
+
+.saleContainer {
+  background-color: #ecfe56;
+}
+
+/* .signupContainer {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.signup1 {
+  border: #000 solid;
+  width: 440px;
+}
+.signup2 {
+  border: #000 solid;
+  width: 471px;
+} */
+/*   */
+.signup3 {
+  border: #000 solid;
+}
